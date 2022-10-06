@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.item}>
+      <div className={styles.call}>
         <div className={styles.callButton}>
           <Image src="/img/telephone.png" alt="" width="32" height="32" />
         </div>
@@ -17,7 +17,7 @@ const Navbar = () => {
           <div className={styles.text}>012 345 678</div>
         </div>
       </div>
-      <div className={`${styles.item} ${styles.pizzaLogo}`}>
+      <div className={styles.pizzaLogo}>
         <span className={styles.textPizzaS}>HOT PIZZA</span>{" "}
         <Link href="/">
           <Image src="/img/logo.png" alt="" width="64px" height="64px" />

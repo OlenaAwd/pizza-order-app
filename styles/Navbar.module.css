@@ -5,31 +5,19 @@
   background-color: #fff;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   position: sticky;
   top: 0;
   z-index: 999;
 }
-
-.item {
+.call{
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.item:nth-child(2) {
-  flex: 1;
-}
-
-.item:last-child {
-  justify-content: flex-end;
+  justify-content: left;
 }
 
 .pizzaLogo{
-  margin-right: auto;
-  margin-left: auto;
+ margin-left: -100px;
   justify-content: center;
   align-items: center;
 }

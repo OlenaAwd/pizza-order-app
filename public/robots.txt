@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://pizza-order-hot-pizza.vercel.app/
+
+# Sitemaps
+Sitemap: https://pizza-order-hot-pizza.vercel.app/sitemap.xml

@@ -15,7 +15,7 @@ export default function Home({ pizzaList, admin }) {
     <div className={styles.container}>
       <Head>
         <title>Pizza Hot</title>
-        <meta name="description" content="Best pizza app in Poland!" />
+        <meta name="description" content="Hot pizza for everybody" />
         <link
           rel="icon"
           href="https://img.icons8.com/external-febrian-hidayat-flat-febrian-hidayat/64/000000/external-pizza-fast-food-febrian-hidayat-flat-febrian-hidayat.png"

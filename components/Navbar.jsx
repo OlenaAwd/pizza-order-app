@@ -18,11 +18,11 @@ const Navbar = () => {
         </div>
       </div>
       <div className={styles.pizzaLogo}>
-        <span className={styles.textPizzaS}>HOT PIZZA</span>{" "}
-        <Link href="/">
-          <Image src="/img/logo.png" alt="" width="64px" height="64px" />
-        </Link>
-        <span className={styles.textPizzaE}>FOR EVERYBODY!</span>
+        {/* <Link href="/"> */}
+        <span className={styles.textPizzaS}>HOT PIZZA FOR EVERYBODY!</span>{" "}
+        {/* <Image src="/img/logo.png" alt="" width="64px" height="64px" /> */}
+        {/* </Link> */}
+        {/* <span className={styles.textPizzaE}>FOR EVERYBODY!</span> */}
       </div>
       <Link href="/cart">
         <div className={styles.cart}>
